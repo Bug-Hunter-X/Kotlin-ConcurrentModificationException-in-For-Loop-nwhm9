@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Kotlin involving ConcurrentModificationException.  The `bug.kt` file shows code that throws this exception when attempting to remove items from a mutable list while iterating with a standard `for` loop. The `bugSolution.kt` file provides solutions using iterators and creating a new list to avoid the exception.
